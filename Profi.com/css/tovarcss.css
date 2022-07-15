@@ -1,0 +1,168 @@
+.body12 {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+/* -----------------фон саита ---------------------------------------*/
+.header {
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(https://krot.info/uploads/posts/2021-01/thumbs/1610236703_41-p-polnostyu-krasnii-fon-66.png);
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .1);
+}
+/*---------------- меню саита-----------------------*/
+.navbar{
+	width: 100%;
+	height: 70px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+
+}
+.navbar .container{
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-menu{
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.navbar-menu li {
+	display: inline-block;
+}
+.navbar-menu li a {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all .07s ease-in-out;
+}
+.navbar-menu li a:hover{
+	opacity: 1;
+}
+.navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.callback {
+	margin-left: 30px;
+	padding: 10px;
+	background-color: rgb(255, 0, 0);
+	font-weight: 600;
+	border-radius: 100px;
+	color: #fff;
+	text-decoration: none;
+	transition: all .1s ease-out;
+}
+.callback:hover{
+	transform: scale(1.04);
+	color: #fff;
+}
+.navbar-brand {
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: none;
+	color: #000;
+}
+.navbar-brand:hover {
+	color: #000;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>дизаин саита<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  text-align: center;
+
+}
+
+.flex {
+  display: inline-flex;
+  padding: 20px 10px;
+}
+
+.cart {
+  width: 270px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 65px;
+}
+
+.cart:not(:first-child) {
+  margin-left: 20px;
+}
+
+img {
+  display: inline-block;
+  max-width: 200px;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+.description {
+  font-size: 14px;
+  text-align: left;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.price {
+  margin: 20px auto;
+}
+
+.button {
+  margin: 20px auto;
+}
+
+.divka {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.callb {
+
+	margin-left: 35px;
+	padding: 5px;
+	background-color: rgb(255, 0, 0);
+	font-weight: 600;
+	border-radius: 100px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	transition: all .1s ease-out;
+}
+.callb:hover{
+	transform: scale(1.04);
+	color: #fff;
+}
+.description {
+	padding-top: 10px;
+	margin-right: 60px;
+	width: 115px;
+  }
+
+
+
